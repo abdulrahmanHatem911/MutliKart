@@ -1,0 +1,6 @@
+{
+    "editor.mouseWheelZoom": true,
+    "dart.flutterRunAdditionalArgs": [
+        "--no-sound-null-safety"
+    ]
+}
