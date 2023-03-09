@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 class AppLightTheme {
   static ThemeData lightTheme = ThemeData(
+    brightness: Brightness.light,
     drawerTheme: const DrawerThemeData(
       elevation: 0.0,
     ),
@@ -18,13 +19,12 @@ class AppLightTheme {
         fontWeight: FontWeight.w600,
       ),
     ),
-    brightness: Brightness.light,
-    textTheme: getTextTheme,
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
       backgroundColor: Colors.white,
       selectedItemColor: Colors.black,
       unselectedItemColor: Colors.grey[500],
     ),
+    textTheme: getTextTheme,
   );
   static TextTheme getTextTheme = TextTheme(
     bodyText1: GoogleFonts.prompt(
